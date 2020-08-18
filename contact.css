@@ -31,10 +31,11 @@ body{
 }
 
 #bio{
+  height: 400px;
   font-size: 20px;
   font-family: 'Inconsolata', monospace;
   position: absolute;
-  left: 25%;
+  text-align: center;
   top: 10%;
 }
 

@@ -37,8 +37,6 @@ body{
   position: absolute;
   text-align: justify;
   top: 10%;
-  overflow: hidden;
-  overflow-y: scroll;
 }
 
 @keyframes fadeIn {
