@@ -1,0 +1,47 @@
+body{
+  background-color: #FBE7F5;
+}
+
+.intro{
+  text-align: center;
+}
+
+#about-title-text{
+  color: hotpink;
+  font-size: 60px;
+  font-family: 'Inconsolata', monospace;
+}
+
+#subtitle-text{
+  color: #B43C8B;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  position: relative;
+  bottom: 45px;
+  animation: fadeIn ease 3s;
+}
+
+.box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  filter: drop-shadow(10px 15px 4px rgba(0, 0, 0, 0.25));
+  animation: fadeIn ease 3s;
+}
+
+#bio{
+  height: 400px;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

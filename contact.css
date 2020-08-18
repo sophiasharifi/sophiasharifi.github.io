@@ -1,0 +1,108 @@
+body{
+  background-color: #FBE7F5;
+}
+
+.intro{
+  text-align: center;
+}
+
+#contact-title-text{
+  color: hotpink;
+  font-size: 60px;
+  font-family: 'Inconsolata', monospace;
+}
+
+#subtitle-text{
+  color: #B43C8B;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  position: relative;
+  bottom: 45px;
+  animation: fadeIn ease 3s;
+}
+
+.box{
+  position:relative;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  filter: drop-shadow(10px 15px 4px rgba(0, 0, 0, 0.25));
+  animation: fadeIn ease 3s;
+}
+
+#bio{
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+}
+
+#img1{
+  position: absolute;
+  left: 25%;
+  top: 20%;
+
+  max-width: 20%;
+  max-height: 20%;
+}
+
+#img2{
+  position: absolute;
+  left: 38%;
+  top: 20%;
+
+  max-width: 20%;
+  max-height: 20%;
+}
+
+#img3{
+  position: absolute;
+  left: 51%;
+  top: 20%;
+
+  max-width: 20%;
+  max-height: 20%;
+}
+
+#img4{
+  position: absolute;
+  left: 64%;
+  top: 20%;
+
+  max-width: 20%;
+  max-height: 20%;
+}
+
+#about-title{
+  position: absolute;
+  font-family: 'Inconsolata', monospace;
+  left: 27.5%;
+  top: 37.5%;
+}
+
+#experience-title{
+  position: absolute;
+  font-family: 'Inconsolata', monospace;
+  left: 39.5%;
+  top: 37.5%;
+}
+
+#project-title{
+  position: absolute;
+  font-family: 'Inconsolata', monospace;
+  left: 53%;
+  top: 37.5%;
+}
+
+#contact-title{
+  position: absolute;
+  font-family: 'Inconsolata', monospace;
+  left: 65%;
+  top: 37.5%;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
