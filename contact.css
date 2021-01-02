@@ -2,6 +2,12 @@ body{
   background-color: #FBE7F5;
 }
 
+#return{
+  font-family: 'Inconsolata', monospace;
+  font-size: 10px;
+  text-decoration: none;
+}
+
 .intro{
   text-align: center;
 }
